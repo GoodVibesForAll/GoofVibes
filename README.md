@@ -17,3 +17,9 @@ function LoveCalculator(p1,p2){
 }
 var result = LoveCalculator();
 console.log(" Pallavi Loves Kier : " + result + "%");
+
+# Another Love calc;
+prompt("What's your name?");
+prompt("What's thier name?");
+var LovePercentage = Math.floor((Math.random()*100) +1);
+alert("Your Love Percentage is " + LovePercentage + "%");
