@@ -23,3 +23,22 @@ prompt("What's your name?");
 prompt("What's thier name?");
 var LovePercentage = Math.floor((Math.random()*100) +1);
 alert("Your Love Percentage is " + LovePercentage + "%");
+
+# Love Calc based on love%;
+prompt("What's your name?");
+prompt("What's thier name?");
+var LovePercentage = Math.floor((Math.random()*100) +1);
+if(LovePercentage > 80){
+    alert("Your Love Percentage is " + LovePercentage + "% . Wohoo ! Soulmates");
+}else{
+    alert("Your Love Percentage is " + LovePercentage + "%");
+}
+
+# Leap Year Code
+function isLeap(year) {  
+    if(year%4===0 && year%100!==0){
+        return "Leap year.";
+    }else if(year%4!==0 || year%100===0 && year%400!==0 ){
+        return "Not leap year.";
+    }
+}
