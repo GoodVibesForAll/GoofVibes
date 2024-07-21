@@ -42,3 +42,22 @@ function isLeap(year) {
         return "Not leap year.";
     }
 }
+
+# FizzBuzz
+var outputArray = [] ;
+var count=1;
+function fizzBuzz(){
+    if(count%3===0 && count%5===0){
+        outputArray.push("FizzBuzz");
+    }    
+    else if(count%3===0){
+       outputArray.push("Fizz") ;
+    }else if(count%5===0){
+        outputArray.push("Buzz");
+    }else{
+        outputArray.push(count);
+    }
+    count++;
+    console.log(outputArray);
+}
+
