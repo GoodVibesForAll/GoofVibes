@@ -61,3 +61,12 @@ function fizzBuzz(){
     console.log(outputArray);
 }
 
+# Who is buying you Lunch 
+
+function whosPaying(names) {
+    var numberOfPpl = names.length;
+    var randomNamePosition = Math.floor(Math.random() * numberOfPpl);
+    var randomName = names[randomNamePosition];
+    return randomName + " is going to buy lunch today!";
+}
+
